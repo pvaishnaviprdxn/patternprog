@@ -16,7 +16,7 @@ document.write("<br>1.<br>");
 document.write("<br>2.");
 for(i=0;i<=6;i++){
     for(j=0;j<i;j++){
-        document.write("# ");
+        document.write("#");
     }
         document.write("<br>");
 }
