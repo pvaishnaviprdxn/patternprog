@@ -16,7 +16,7 @@ document.write("<br>1.<br>");
 document.write("<br>2.");
 for(i=0;i<=6;i++){
     for(j=0;j<i;j++){
-        document.write("# ");
+        document.write("#");
     }
         document.write("<br>");
 }
@@ -62,9 +62,9 @@ document.write("<br>5.<br>");
 for(i=1;i<=5;i++){
     document.write(i);
     for(j=1;j<i;j++){
-        document.write(j);
+        document.write(j+2);
     }
-    for(k=j;k<j;k++){
+    for(k=2;k<j+1;k++){
         document.write(k);
     }
     document.write("<br>");
